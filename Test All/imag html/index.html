@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a Project" />
+    <meta name="author" content="Khaled Al-Smadi" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header style="background-color: lightgreen; color: white;">
+      <h1 style="text-align: center;">Hotel - StaySafe</h1>
+      <nav class="nav" style="display: flex; gap: 20px; justify-content: center; font-size: 30px;">
+        <a href="#" style="text-decoration: none; color: brown;">Home</a>
+        <a href="about.html" style="text-decoration: none; color: brown;">About</a>
+        <a href="contact.html" style="text-decoration: none; color: brown;">Contact</a>
+        <a href="services.html" style="text-decoration: none; color: brown;">Services</a>
+        <a href="rooms.html" style="text-decoration: none; color: brown;">Rooms</a>
+      </nav>
+    </header>
+    <main>
+      <section style="text-align: center;"">
+        <img src="download.jpeg" alt="Hero Image"  height="300px" width="50%" />
+        <p>
+          Welcome to Hotel - StaySafe, your premier destination for a safe and
+          comfortable stay. We are committed to providing exceptional
+          hospitality while ensuring the health and safety of our guests. Our
+          hotel is equipped with state-of-the-art facilities and follows strict
+          hygiene protocols to create a secure environment for all our visitors.
+          Whether you're traveling for business or leisure, we strive to make
+          your stay enjoyable and worry-free. Experience the perfect blend of
+          comfort, convenience, and safety at Hotel - StaySafe.
+        </p>
+        <br />
+      </section>
+      <section>
+        <h2 style="text-align: center; background-color: burlywood; color: white;" >About Us</h2>
+        <p>
+          At <strong> Hotel - StaySafe</strong>, we are dedicated to providing
+          an unparalleled guest experience. With a focus on safety and comfort,
+          our team works tirelessly to ensure that every aspect of your stay
+          meets the highest standards.<em>
+            Our commitment to excellence is reflected in our modern amenities,
+            attentive service, and unwavering dedication to the well-being of
+            our guests.</em
+          >
+        </p>
+      </section>
+      <section>
+        <h2 style="text-align: center; background-color: burlywood; color: white;" >Contact Us</h2>
+        <form style="width: 100%;height: fit-content;">
+          <label for="name" style="font-size: 20px;">Name:</label>
+          <input type="text" placeholder="Name" id="name" required style="width: 300px; height: 50px;" />
+          <br />
+          <label for="email" style="font-size: 20px;">Email:</label>
+          <input type="email" placeholder="Email" id="email" required style="width: 300px; height: 50px;" />
+          <br />
+          <label for="password" style="font-size: 20px; ">Password:</label>
+          <input
+            type="password"
+            placeholder="Password"
+            id="password"
+            required
+            style="width: 300px; height: 50px;"
+          />
+          <br />
+          <label for="phone" style="font-size: 20px;">Phone:</label>
+          <input type="tel" placeholder="+962 XXXXXXXXXX" id="phone" required style="width: 300px; height: 50px;" />
+          <br />
+          <label for="date" style="font-size: 20px; ">date:</label>
+          <input type="date" id="date" requiredstyle="width: 300px; height: 50px;" />
+          <br />
+          <label for="message" style="font-size: 20px;">Message:</label>
+          <textarea placeholder="Message" id="message" required style="width: 300px; height: 100px;"></textarea>
+          <br />
+          <label for="file" style="font-size: 20px;">Upload File:</label>
+          <input type="file" id="file" required  style="width: 300px; height: 50px;"/>
+          <br />
+          <label for="color" style="font-size: 20px;  ">Favorite Color:</label>
+          <input type="color" id="color" required style="width: 300px; height: 50px;" />  
+          <br />  
+
+          <label for="gender" style="font-size: 20px;"> Your Gender:</label>
+          <input type="radio" name="gender" id="gender" value="male" style="width: 300px; height: 50px;"/>
+          <label for="mail" style="font-size: 20px;">Male</label>
+          <input type="radio" name="gender" id="gender" value="female" style="width: 300px; height: 50px;"/>
+          <label for="female" style="font-size: 20px;">Female</label>
+          <br />
+          <label for="Langugase" style="font-size: 20px;">Language:</label>
+          <input
+            type="checkbox"
+            name="language"
+            id="language"
+            value="english"
+            style="width: 300px; height: 50px;"
+          />
+          <label for="english" style="font-size: 20px;">English</label>
+          <input type="checkbox" name="language" id="language" value="arabic" style="width: 300px; height: 50px;" />
+          <label for="arabic" style="font-size: 20px;">Arabic</label>
+          <input type="checkbox" name="language" id="language" value="french" style="width: 300px; height: 50px;  " />
+          <label for="french" style="font-size: 20px;">French</label>
+          <br />
+          <label for="country" style="font-size: 20px ;">Country:</label>
+          <select name="country" id="country">
+            <option selected disabled value="">Select Country</option>
+            <option value="jo">Jordan</option>
+            <option value="sy">Syria</option>
+            <option value="lb">Lebanon</option>
+          </select>
+          <br />
+          <button type="submit" style="background-color: cadetblue; color: black; border-radius: 30px;">Submit</button>
+          <button type="reset" style="background-color: lightgray; color: black; border-radius: 30px;">Reset</button>
+        </form>
+      </section>
+
+      <section>
+        <ul type="square">
+          <li>
+            Jordan Premier League: 5 titles (1981, 1982, 1984, 1985, 2021)
+          </li>
+          <li>Jordan FA Cup: 3 titles (1980, 1981, 1990)</li>
+          <li>Jordan Super Cup: 2 titles (1981, 2021)</li>
+        </ul>
+
+        <ol type="A">
+          <li>
+            Jordan Premier League: 5 titles (1981, 1982, 1984, 1985, 2021)
+          </li>
+          <li>Jordan FA Cup: 3 titles (1980, 1981, 1990)</li>
+          <li>Jordan Super Cup: 2 titles (1981, 2021)</li>
+        </ol>
+      </section>
+        <table style="width: 100%; border: 10px solid rgb(196, 23, 23)" border="1">
+            <thead
+              style="
+                color: red;
+                font-size: 25px;
+                font-family:
+                  &quot;Franklin Gothic Medium&quot;, &quot;Arial Narrow&quot;,
+                  Arial, sans-serif;
+                font-weight: bolder;
+                color: black;
+              "
+            >
+              <tr>
+                <th colspan="2">Name</th>
+                <th>Class</th>
+                <th>School</th>
+              </tr>
+            </thead>
+            <tbody style="text-align: center; color: blue; background-color: lightgrey;">
+              <tr>
+                <td rowspan="2">John</td>
+                <td rowspan="2">Doe</td>
+                <td>10th Grade</td>
+                <td rowspan="2">Springfield High</td>
+              </tr>
+            </tr>
+            <tr>
+              <td>11th Grade</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Jane</td>
+              <td rowspan="2">Smith</td>
+              <td>9th Grade</td>
+              <td rowspan="2">Springfield High</td>
+            </tr>
+            <tr>
+              <td>10th Grade</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Emily</td>
+              <td rowspan="2">Johnson</td>
+              <td>12th Grade</td>
+              <td rowspan="2">Springfield High</td>
+            </tr>
+            <tr>
+              <td>11th Grade</td>
+            </tr>
+            </tbody>
+          </table>
+    </main>
+    <footer style="background-color: rgb(238, 144, 144); color: white;">
+      <h3>Hotel - StaySafe</h3>
+      <p>&copy; 2024 Hotel - StaySafe. All rights reserved.</p>
+      <div>
+        <a href="#" style="color: brown;">Home</a>
+        <a href="#" style="color: brown;">About</a>
+        <a href="#" style="color: brown;">Contact</a>
+        <a href="#" style="color: brown;">Services</a>
+        <a href="#" style="color: brown;">Rooms</a>
+      </div>
+    </footer>
+  </body>
+</html>

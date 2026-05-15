@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Al-Ramtha Sports Club is one of the oldest Jordanian clubs, founded in 1966. 
+      The club is based in the city of Al-Ramtha, located in the northern part of Jordan."
+    />
+    <title>Al-Ramtha Sports Club</title>
+
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: blue;
+      }
+      .Header{
+        text-align: center;
+         color: white;
+          background-color: blue;
+          padding: 20px;
+      }
+      .Header-div {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        font-size: 30px;
+      }
+      .Header-div a {
+        color: black;
+        font-weight: bold;
+      }
+      .Header-div a:hover {
+        color: white;
+      }
+      .section1 {
+        text-align: center;
+        font-size: 20px;
+      }
+      form {
+        background-color: white;
+        padding: 20px;
+        border-radius: 5px;
+        display:inline-table; 
+        text-align: left;
+      }
+      h2 {
+        color: white;
+        font-size: 30px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <div class="Header">
+        <img src="download.png" alt="Al-Ramtha Sports Club Logo" />
+        <h1>Al-Ramtha Sports Club</h1>
+      
+      <div class="Header-div">
+        <a href="#">Home</a>
+        <a href="AboutUs.html">About Us</a>
+        <a href="https://www.facebook.com/AlRamthaSC"
+          >Facebook</a
+        >
+        <select name="Team" id="team-select">
+          <option value="select">Select an Team</option>
+          <option value="First Team">First Team</option>
+          <option value="U23">U23</option>
+          <option value="U19">U19</option>
+          <option value="U17">U17</option>
+          <option value="U15">U15</option>
+        </select>
+      </div>
+      </div>
+    </header>
+
+    <main>
+    
+      <br />
+      <section>
+        <form >
+            <h2>Register for membership in the club</h2>
+            <label for="name">Name:</label><br />
+            <input type="text" id="name" name="name" required  placeholder="Enter Your Full Name"/><br />
+            <label for="age">Age:</label><br />
+            <input type="number" id="age" name="age" required placeholder="Enter Your Age" /><br />
+            <label for="national-id">National ID:</label><br />
+            <input type="text" id="national-id" name="national-id" required  placeholder="Enter Your National ID"/><br />
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required placeholder="Enter Your Email" /><br />
+            <label for="phone">Phone:</label><br />
+            <input type="tel" id="phone" name="phone" required placeholder="+962 7X XXX XXX" /><br />
+             <label for="gender">Gender:</label>
+           <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male.</label>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female.</label>
+            <br />
+            <br />
+          <div>  <label for ="Fans">Fans inside or outside the country:</label>
+            <input type="checkbox" id="inside" name="fans" value="inside" />
+            <label for="inside">Inside the country.</label> 
+            <input type="checkbox" id="outside" name="fans" value="outside" />
+            <label for="outside">Outside the country.</label><br />
+            </div>   
+            <label for="message">Message:</label><br />
+            <textarea id="message" name="message" placeholder="The motivation that makes you register as a member of the club" ></textarea><br />
+            <button type="submit">Submit</button>
+        </form>
+        </section>  
+    </main>
+    <footer>
+      <p>&copy; 2024 Al-Ramtha Sports Club. All rights reserved.</p>
+        <a href="https://www.facebook.com/AlRamthaSC" style="color: white;"
+          >Facebook</a>
+    </footer>
+  </body>
+</html>
