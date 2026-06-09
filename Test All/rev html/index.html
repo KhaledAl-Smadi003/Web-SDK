@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .main-header {
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+            height: 200px;
+        }
+        .main-nav {
+            display: flex;
+            justify-content:flex-start;
+            margin-bottom: 20px;
+        }
+        .main-nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .main-nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        .main-nav ul li a {
+            text-decoration: none;
+            color: #333;
+        }
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .main-content section {
+            background-color: #e0e0e0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .main-footer {
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav> 
+    <h1>Welcome to the Test HTML Page</h1>
+    <hr>
+    <p>This is a simple HTML page used for <del>testing</del> purposes.
+    </p>
+    </header>
+<main class="main-content">
+    <section class="first-section">
+        <h2>Section 1</h2>
+        <p>This is the first section of the page.
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+        </p>
+    </section>
+    <section class="second-section">
+        <h2>Section 2</h2>
+        <p>This is the second section of the page.
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+    </section>
+    <section class="third-section">
+        <h2>Section 3</h2>
+        <p>This is the third section of the page.
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="submit" value="Submit">
+      <button type="button">Click Me</button>
+      <button type="reset">Reset</button>
+      </form>
+    </section>
+</main>
+<footer class="main-footer">
+    <p>&copy; 2024 Test HTML Page. All rights reserved.</p>
+</footer>
+</body>
+</html>
