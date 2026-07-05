@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Create Account</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="../CSS/CreateAccount.css" />
+</head>
+
+<body>
+
+<main class="container mt-5 login-wrapper">
+
+  <form>
+  <div class="imgcontainer">
+      <img src="../images/logo.jpeg" alt="Avatar">
+    </div>
+
+    <div class="title">
+      <h3>Create Account with 3Zoon Agency </h3>
+    </div>
+    <br/>
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+      </div>
+
+      <div class="col-md-6">
+        <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+      </div>
+    </div>
+
+    <!-- Email + Birth Date -->
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <input type="email" class="form-control" id="email" placeholder="Email" required>
+      </div>
+
+      <div class="col-md-6">
+        <input type="date" class="form-control" id="birthDate">
+      </div>
+    </div>
+
+    <!-- Passwords -->
+    <div class="row mb-3">
+      <div class="col-md-6">
+        <input type="password" class="form-control" id="password" placeholder="Password" required>
+      </div>
+
+      <div class="col-md-6">
+        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password" required>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="d-grid">
+      <button type="submit" class="btn btn-primary">
+        Create Account
+      </button>
+    </div>
+
+  </form>
+
+</main>
+
+</body>
+</html>

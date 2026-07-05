@@ -1,0 +1,100 @@
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  font-family:Arial;
+  background-color: #04061f;
+  padding-bottom: 200px;
+
+}
+
+form {
+  background-color: #0b0f2a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background-color: #333;
+
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.btn {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+ul li a {
+  color: #ccc;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  color: #87ceeb;
+  text-decoration: underline;
+  box-shadow: 0 2px 5px rgba(135, 206, 235, 0.5);
+}
+.footer {
+ 
+  width: 100%;
+  background-color: #0b0f2a;
+  color: white;
+  padding: 20px 60px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+ 
+}
+
+.footer-box h3 {
+  margin-bottom: 15px;
+  color: #87ceeb;
+}
+
+.footer-box p {
+  color: #ccc;
+}
+.footer-box a {
+  display: flex;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+.footer-box a:hover {
+  color: #87ceeb;
+  padding-left: 10px;
+  box-shadow: 0 2px 5px rgba(135, 206, 235, 0.5);
+}
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 15px;
+  color: #888;
+  font-size: 14px;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"/>
+ <link rel="stylesheet" href="../css/ProjectManagement.css">
+</head>
+<body>
+       <header>
+      <nav class="navbar">
+        <img src="../images/logo.jpeg" alt="3Zoon Agency Logo" width="100" />
+        <div class="nav-links">
+          <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li>
+              <a href="#" onclick="logout()" class="btn text-white px-3 bg-danger"
+                >LogOut</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      
+     <form class="container mt-5 ">
+     <div class="text-center mb-4 text-primary">
+          <h1>Project Details</h1>
+        </div>
+    <div class="row mb-3  container mt-5">
+      <div class="col-md-2">
+        <input type="text" class="form-control" id="ProjectName" placeholder="Project Name" required>
+      
+      </div>
+      <div class="col-md-2">
+        <input type="text" class="form-control" id="ClientName" placeholder="Client Name" required>
+      </div>
+    
+      <div class="col-md-2">
+        <input type="text" class="form-control" id="SupervisorName" placeholder="Supervisor" required>
+      </div>
+
+      <div class="col-md-2">
+        <input type="date" class="form-control" id="Date">
+      </div>
+   
+      <div class="col-md-2">
+        <input type="text" class="form-control" id="Category" placeholder="Category" required>
+      </div>
+
+      <div class="col-md-2">
+      <select class="form-select" id="Status" required>
+          <option value="" disabled selected>Status</option>
+          <option value="In Progress">In Progress</option>
+          <option value="On Hold">On Hold</option>
+          <option value="Completed">Completed</option>
+        </select>
+      </div>
+    
+</div>
+    <div class="d-grid">
+      <button type="button" class="btn btn-outline-success" id="addProjectBtn">
+        Add Project
+      </button>
+    </div>
+
+  </form>
+
+    <div class="container mt-5">
+        
+    <table class="table table-dark table-bordered text-center table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Project Name</th>
+                <th>Client</th>
+                <th>Supervisor</th>
+                <th>Date</th>
+                <th>Category</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody id="projectTable">
+
+        </tbody>
+    </table>
+</div>
+  <div class="container mt-5 mb-5">
+    <h2 class="text-center mb-4 text-primary">Project Dashboard</h2>
+  <div class="row g-3">
+
+    <div class="col-md-3">
+      <div class="card text-center border-primary shadow">
+        <div class="card-body">
+          <h5 class="card-title">Total Projects</h5>
+          <h2 id="totalProjects">0</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card text-center border-success shadow">
+        <div class="card-body">
+          <h5 class="card-title">Completed</h5>
+          <h2 id="completedProjects">0</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card text-center border-warning shadow">
+        <div class="card-body">
+          <h5 class="card-title">In Progress</h5>
+          <h2 id="progressProjects">0</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="card text-center border-danger shadow">
+        <div class="card-body">
+          <h5 class="card-title">On Hold</h5>
+          <h2 id="holdProjects">0</h2>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</main>
+ <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-box">
+          <h3>3Zoon Agency</h3>
+          <p>
+            We build modern and responsive websites with clean design and
+            creative ideas.
+          </p>
+        </div>
+
+        <div class="footer-box">
+          <h3>Quick Links</h3>
+          <a href="Home.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Services.html">Services</a>
+          <a href="Projects.html">Projects</a>
+        </div>
+
+        <div class="footer-box">
+          <h3>Contact</h3>
+          <p>Email: sale@3zoon.com</p>
+
+          <p>Email: hr@3zoon.com</p>
+          <p>Phone: +962 78 820 0070</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <hr />
+        <p>© 2026 3Zoon Agency. All Rights Reserved.</p>
+      </div>
+    </footer>
+<script src="../JS/ProjectManagement.js"></script>
+</body>
+</html>
